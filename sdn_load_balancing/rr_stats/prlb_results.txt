@@ -1,0 +1,228 @@
+FOR rr with median_mean_
+
+FOR 100 USERS
+
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent by clients : 11321793792 bytes
+     Duration                    : 60 sec
+     Throughput                  : 1509.5725 Mbps
+     (formula: total_bits / duration / 1000000)
+
+  2. RESPONSE TIME
+     Total server rx pkts        : 1164930
+     Transaction rate            : 1918.55 resp/sec
+     Number of users             : 100
+     Response Time               : 6.0719 sec
+     (formula: (total_server_rx / transaction_rate) / num_users)
+
+  3. TRANSACTION RATE
+     Total server responses      : 115113 packets
+     Duration                    : 60 sec
+     Transaction Rate            : 1918.55 responses/sec
+     (formula: total_responses / duration)
+
+  4. PACKET LOSS
+     Client sent                 : 2677024 pkts
+     Server received             : 1164930 pkts
+     Packet loss                 : 1512094 pkts (56.48%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 received : 633316 pkts (54.4%)
+     h5 received : 216222 pkts (18.6%)
+     h6 received : 315392 pkts (27.1%)
+     Ideal balance would be 33.3%% each
+
+  6. FLOW DISTRIBUTION
+     Each connection installs 1 forward flow
+     h4 flows : 47 connections
+     h5 flows : 53 connections
+     h6 flows : 53 connections
+     Total    : 153 connections  (ideal: 51 each)
+
+============================================================
+
+
+FOR 200 USERS
+
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent by clients : 12507556226 bytes
+     Duration                    : 60 sec
+     Throughput                  : 1667.6742 Mbps
+     (formula: total_bits / duration / 1000000)
+
+  2. RESPONSE TIME
+     Total server rx pkts        : 2371455
+     Transaction rate            : 1733.95 resp/sec
+     Number of users             : 200
+     Response Time               : 6.8383 sec
+     (formula: (total_server_rx / transaction_rate) / num_users)
+
+  3. TRANSACTION RATE
+     Total server responses      : 104037 packets
+     Duration                    : 60 sec
+     Transaction Rate            : 1733.95 responses/sec
+     (formula: total_responses / duration)
+
+  4. PACKET LOSS
+     Client sent                 : 4641171 pkts
+     Server received             : 2371455 pkts
+     Packet loss                 : 2269716 pkts (48.90%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 received : 1835118 pkts (77.4%)
+     h5 received : 224457 pkts (9.5%)
+     h6 received : 311880 pkts (13.2%)
+     Ideal balance would be 33.3%% each
+
+  6. FLOW DISTRIBUTION
+     Each connection installs 1 forward flow
+     h4 flows : 58 connections
+     h5 flows : 92 connections
+     h6 flows : 90 connections
+     Total    : 240 connections  (ideal: 80 each)
+
+============================================================
+
+For 300 users
+
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent by clients : 14868746992 bytes
+     Duration                    : 60 sec
+     Throughput                  : 1982.4996 Mbps
+     (formula: total_bits / duration / 1000000)
+
+  2. RESPONSE TIME
+     Total server rx pkts        : 3561708
+     Transaction rate            : 1824.47 resp/sec
+     Number of users             : 300
+     Response Time               : 6.5073 sec
+     (formula: (total_server_rx / transaction_rate) / num_users)
+
+  3. TRANSACTION RATE
+     Total server responses      : 109468 packets
+     Duration                    : 60 sec
+     Transaction Rate            : 1824.47 responses/sec
+     (formula: total_responses / duration)
+
+  4. PACKET LOSS
+     Client sent                 : 5614827 pkts
+     Server received             : 3561708 pkts
+     Packet loss                 : 2053119 pkts (36.57%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 received : 1794979 pkts (50.4%)
+     h5 received : 833727 pkts (23.4%)
+     h6 received : 933002 pkts (26.2%)
+     Ideal balance would be 33.3%% each
+
+  6. FLOW DISTRIBUTION
+     Each connection installs 1 forward flow
+     h4 flows : 69 connections
+     h5 flows : 92 connections
+     h6 flows : 90 connections
+     Total    : 251 connections  (ideal: 83 each)
+
+============================================================
+
+For 400 users
+
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent by clients : 15054043272 bytes
+     Duration                    : 60 sec
+     Throughput                  : 2007.2058 Mbps
+     (formula: total_bits / duration / 1000000)
+
+  2. RESPONSE TIME
+     Total server rx pkts        : 2979527
+     Transaction rate            : 1646.33 resp/sec
+     Number of users             : 400
+     Response Time               : 4.5245 sec
+     (formula: (total_server_rx / transaction_rate) / num_users)
+
+  3. TRANSACTION RATE
+     Total server responses      : 98780 packets
+     Duration                    : 60 sec
+     Transaction Rate            : 1646.33 responses/sec
+     (formula: total_responses / duration)
+
+  4. PACKET LOSS
+     Client sent                 : 5656627 pkts
+     Server received             : 2979527 pkts
+     Packet loss                 : 2677100 pkts (47.33%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 received : 1448551 pkts (48.6%)
+     h5 received : 669165 pkts (22.5%)
+     h6 received : 861811 pkts (28.9%)
+     Ideal balance would be 33.3%% each
+
+  6. FLOW DISTRIBUTION
+     Each connection installs 1 forward flow
+     h4 flows : 62 connections
+     h5 flows : 77 connections
+     h6 flows : 76 connections
+     Total    : 215 connections  (ideal: 71 each)
+
+============================================================
+
+For 500 users
+
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent by clients : 14234665142 bytes
+     Duration                    : 60 sec
+     Throughput                  : 1897.9554 Mbps
+     (formula: total_bits / duration / 1000000)
+
+  2. RESPONSE TIME
+     Total server rx pkts        : 4090668
+     Transaction rate            : 1938.40 resp/sec
+     Number of users             : 500
+     Response Time               : 4.2207 sec
+     (formula: (total_server_rx / transaction_rate) / num_users)
+
+  3. TRANSACTION RATE
+     Total server responses      : 116304 packets
+     Duration                    : 60 sec
+     Transaction Rate            : 1938.40 responses/sec
+     (formula: total_responses / duration)
+
+  4. PACKET LOSS
+     Client sent                 : 5307226 pkts
+     Server received             : 4090668 pkts
+     Packet loss                 : 1216558 pkts (22.92%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 received : 1510855 pkts (36.9%)
+     h5 received : 1546110 pkts (37.8%)
+     h6 received : 1033703 pkts (25.3%)
+     Ideal balance would be 33.3%% each
+
+  6. FLOW DISTRIBUTION
+     Each connection installs 1 forward flow
+     h4 flows : 155 connections
+     h5 flows : 159 connections
+     h6 flows : 164 connections
+     Total    : 478 connections  (ideal: 159 each)
+
+============================================================
+
