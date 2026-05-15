@@ -1,0 +1,210 @@
+rr + 2 PRIO queues +STATS
+
+100 USERS 
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent : 4081866194 bytes
+     Duration         : 60 sec
+     Throughput       : 544.2488 Mbps
+
+  2. RESPONSE TIME
+     Total server rx  : 1455831 pkts
+     Transaction rate : 723.45 resp/sec
+     Users            : 100
+     Response Time    : 20.1235 sec
+
+  3. TRANSACTION RATE
+     Server responses : 43407 pkts
+     Duration         : 60 sec
+     Transaction Rate : 723.45 resp/sec
+
+  4. PACKET LOSS
+     Client sent      : 2367514 pkts
+     Server received  : 1455831 pkts
+     Packet loss      : 911683 pkts (38.51%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 : 386409 pkts (26.5%)
+     h5 : 505935 pkts (34.8%)
+     h6 : 563487 pkts (38.7%)
+     Ideal: 33.3%% each
+
+  6. FLOW DISTRIBUTION (string matches = 2x connections)
+     h4 : 68  (~34 conns)
+     h5 : 66  (~33 conns)
+     h6 : 66  (~33 conns)
+     Total : 200  (ideal: 66 each)
+
+============================================================
+    Saved to /tmp/final_metrics.txt
+
+200 users
+
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent : 6322329854 bytes
+     Duration         : 60 sec
+     Throughput       : 842.9773 Mbps
+
+  2. RESPONSE TIME
+     Total server rx  : 2766631 pkts
+     Transaction rate : 1235.52 resp/sec
+     Users            : 200
+     Response Time    : 11.1963 sec
+
+  3. TRANSACTION RATE
+     Server responses : 74131 pkts
+     Duration         : 60 sec
+     Transaction Rate : 1235.52 resp/sec
+
+  4. PACKET LOSS
+     Client sent      : 3872646 pkts
+     Server received  : 2766631 pkts
+     Packet loss      : 1106015 pkts (28.56%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 : 948199 pkts (34.3%)
+     h5 : 849965 pkts (30.7%)
+     h6 : 968467 pkts (35.0%)
+     Ideal: 33.3%% each
+
+  6. FLOW DISTRIBUTION (string matches = 2x connections)
+     h4 : 134  (~67 conns)
+     h5 : 134  (~67 conns)
+     h6 : 132  (~66 conns)
+     Total : 400  (ideal: 133 each)
+
+============================================================
+    Saved to /tmp/final_metrics.txt
+
+300 users
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent : 7712245202 bytes
+     Duration         : 60 sec
+     Throughput       : 1028.2994 Mbps
+
+  2. RESPONSE TIME
+     Total server rx  : 3270145 pkts
+     Transaction rate : 1335.93 resp/sec
+     Users            : 300
+     Response Time    : 8.1595 sec
+
+  3. TRANSACTION RATE
+     Server responses : 80156 pkts
+     Duration         : 60 sec
+     Transaction Rate : 1335.93 resp/sec
+
+  4. PACKET LOSS
+     Client sent      : 4792356 pkts
+     Server received  : 3270145 pkts
+     Packet loss      : 1522211 pkts (31.76%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 : 862558 pkts (26.4%)
+     h5 : 1115890 pkts (34.1%)
+     h6 : 1291697 pkts (39.5%)
+     Ideal: 33.3%% each
+
+  6. FLOW DISTRIBUTION (string matches = 2x connections)
+     h4 : 200  (~100 conns)
+     h5 : 200  (~100 conns)
+     h6 : 200  (~100 conns)
+     Total : 600  (ideal: 200 each)
+
+============================================================
+    Saved to /tmp/final_metrics.txt
+
+400 users
+
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent : 8895698182 bytes
+     Duration         : 60 sec
+     Throughput       : 1186.0931 Mbps
+
+  2. RESPONSE TIME
+     Total server rx  : 2914195 pkts
+     Transaction rate : 2054.55 resp/sec
+     Users            : 400
+     Response Time    : 3.5460 sec
+
+  3. TRANSACTION RATE
+     Server responses : 123273 pkts
+     Duration         : 60 sec
+     Transaction Rate : 2054.55 resp/sec
+
+  4. PACKET LOSS
+     Client sent      : 5486120 pkts
+     Server received  : 2914195 pkts
+     Packet loss      : 2571925 pkts (46.88%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 : 733205 pkts (25.2%)
+     h5 : 1097300 pkts (37.7%)
+     h6 : 1083690 pkts (37.2%)
+     Ideal: 33.3%% each
+
+  6. FLOW DISTRIBUTION (string matches = 2x connections)
+     h4 : 266  (~133 conns)
+     h5 : 266  (~133 conns)
+     h6 : 266  (~133 conns)
+     Total : 798  (ideal: 266 each)
+
+============================================================
+    Saved to /tmp/final_metrics.txt
+
+500 users
+
+============================================================
+  FINAL METRICS SUMMARY (after 60s)
+============================================================
+
+  1. THROUGHPUT
+     Total bytes sent : 9392212084 bytes
+     Duration         : 60 sec
+     Throughput       : 1252.2949 Mbps
+
+  2. RESPONSE TIME
+     Total server rx  : 3128294 pkts
+     Transaction rate : 1452.73 resp/sec
+     Users            : 500
+     Response Time    : 4.3068 sec
+
+  3. TRANSACTION RATE
+     Server responses : 87164 pkts
+     Duration         : 60 sec
+     Transaction Rate : 1452.73 resp/sec
+
+  4. PACKET LOSS
+     Client sent      : 5818377 pkts
+     Server received  : 3128294 pkts
+     Packet loss      : 2690083 pkts (46.23%)
+
+  5. LOAD BALANCE DISTRIBUTION
+     h4 : 1118152 pkts (35.7%)
+     h5 : 1008308 pkts (32.2%)
+     h6 : 1001834 pkts (32.0%)
+     Ideal: 33.3%% each
+
+  6. FLOW DISTRIBUTION (string matches = 2x connections)
+     h4 : 330  (~165 conns)
+     h5 : 330  (~165 conns)
+     h6 : 330  (~165 conns)
+     Total : 990  (ideal: 330 each)
+
+============================================================
+    Saved to /tmp/final_metrics.txt
+
